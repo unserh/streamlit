@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 import "streamlit/proto/Exception.proto";
 
 // A transient event sent to all browsers connected to an associated report.

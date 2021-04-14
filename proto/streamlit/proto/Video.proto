@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message Video {
   // A url pointing to a video file
   string url = 6;

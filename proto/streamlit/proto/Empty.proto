@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // A python empty.
 message Empty {
 }

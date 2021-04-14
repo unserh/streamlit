@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message IFrame {
   oneof type {
     // A URL to load

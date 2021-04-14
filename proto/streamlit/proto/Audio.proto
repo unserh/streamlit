@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message Audio {
   string url = 5;
 

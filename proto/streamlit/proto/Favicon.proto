@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message Favicon {
   string url = 1;
 }

@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // State for a session. Sent as part of the Initialize message, and also
 // on ReportSession state change events.
 message SessionState {

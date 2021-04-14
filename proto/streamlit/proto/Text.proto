@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // Preformatted text
 message Text {
   // Content to display.

@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 import "streamlit/proto/Block.proto";
 import "streamlit/proto/Element.proto";
 import "streamlit/proto/NamedDataSet.proto";

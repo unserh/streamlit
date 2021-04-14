@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message MultiSelect {
   string id = 1;
   string label = 2;

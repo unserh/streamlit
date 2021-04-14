@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 import "streamlit/proto/SessionState.proto";
 
 // This is the first message that is sent when a new report is run.

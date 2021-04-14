@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // An image which can be displayed on the screen.
 message Image {
   string markup = 4;

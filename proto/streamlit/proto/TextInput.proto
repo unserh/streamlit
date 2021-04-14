@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message TextInput {
   enum Type {
     // A normal text input.

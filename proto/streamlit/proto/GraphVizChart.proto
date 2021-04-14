@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message GraphVizChart {
   // A specification of the GraphViz graph in the "Dot" language.
   string spec = 1;

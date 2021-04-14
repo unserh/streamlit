@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message Json {
   // Content to display.
   string body = 1;

@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message Slider {
   enum DataType {
     // What numeric type are we working with? This doesn't change how the

@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // file_uploader widget
 message FileUploader {
   // The widget id

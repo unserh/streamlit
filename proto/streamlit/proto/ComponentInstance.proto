@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 import "streamlit/proto/ArrowDataframe.proto";
 
 message ComponentInstance {

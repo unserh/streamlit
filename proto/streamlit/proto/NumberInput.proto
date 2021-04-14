@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message NumberInput {
   enum DataType {
     // Does the input operate on ints or floats? This doesn't change how the

@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message ArrowTable {
   bytes data = 1;
   bytes index = 2;

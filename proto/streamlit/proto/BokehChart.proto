@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 message BokehChart {
   // A JSON-formatted string from the Bokeh chart figure.
   string figure = 1;

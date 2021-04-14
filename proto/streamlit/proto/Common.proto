@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // Message types that are common to multiple protobufs.
 
 message StringArray {

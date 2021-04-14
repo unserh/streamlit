@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 // Manifest for a static (aka "shared") report.
 message StaticManifest {
   enum ServerStatus {

@@ -16,6 +16,8 @@
 
 syntax = "proto3";
 
+package streamlit;
+
 import "streamlit/proto/Alert.proto";
 import "streamlit/proto/Audio.proto";
 import "streamlit/proto/Balloons.proto";
